@@ -1,0 +1,738 @@
+fileFormatVersion: 2
+guid: 9f2a6d469707c4c7daaf1f5475ca9980
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8879228671481253827
+    second: 32x32_loading10_0
+  - first:
+      213: 4271789170809039716
+    second: 32x32_loading10_1
+  - first:
+      213: -8416262013031272851
+    second: 32x32_loading10_2
+  - first:
+      213: 1301075502216682138
+    second: 32x32_loading10_3
+  - first:
+      213: 2333026351948392439
+    second: 32x32_loading10_4
+  - first:
+      213: 1439032893669174561
+    second: 32x32_loading10_5
+  - first:
+      213: -2570349322363490400
+    second: 32x32_loading10_6
+  - first:
+      213: 4051888853115000735
+    second: 32x32_loading10_7
+  - first:
+      213: 6960386580008710493
+    second: 32x32_loading10_8
+  - first:
+      213: -6419054781239919296
+    second: 32x32_loading10_9
+  - first:
+      213: 3756283383712854194
+    second: 32x32_loading10_10
+  - first:
+      213: -4629095414857366797
+    second: 32x32_loading10_11
+  - first:
+      213: 7458935876839524201
+    second: 32x32_loading10_12
+  - first:
+      213: 364039635872780507
+    second: 32x32_loading10_13
+  - first:
+      213: -3319518488492872915
+    second: 32x32_loading10_14
+  - first:
+      213: -8384251089631684705
+    second: 32x32_loading10_15
+  - first:
+      213: -3386746535104138517
+    second: 32x32_loading10_16
+  - first:
+      213: -6155401632675887843
+    second: 32x32_loading10_17
+  - first:
+      213: -4654792279429534729
+    second: 32x32_loading10_18
+  - first:
+      213: 6624638149067369052
+    second: 32x32_loading10_19
+  - first:
+      213: -4405957678405980869
+    second: 32x32_loading10_20
+  - first:
+      213: -68874203082375591
+    second: 32x32_loading10_21
+  - first:
+      213: 8209438524583612957
+    second: 32x32_loading10_22
+  - first:
+      213: 2851073495682035781
+    second: 32x32_loading10_23
+  - first:
+      213: 6476060237038763129
+    second: 32x32_loading10_24
+  - first:
+      213: -403399461990482844
+    second: 32x32_loading10_25
+  - first:
+      213: 1320450353183847134
+    second: 32x32_loading10_26
+  - first:
+      213: 471050086300522640
+    second: 32x32_loading10_27
+  - first:
+      213: 5023789495024721953
+    second: 32x32_loading10_28
+  - first:
+      213: 3678489455450296872
+    second: 32x32_loading10_29
+  - first:
+      213: 621005378374270820
+    second: 32x32_loading10_30
+  - first:
+      213: -2677117355012440584
+    second: 32x32_loading10_31
+  - first:
+      213: 5158999133196708158
+    second: 32x32_loading10_32
+  - first:
+      213: -4212401875696064569
+    second: 32x32_loading10_33
+  - first:
+      213: -4440229709680688600
+    second: 32x32_loading10_34
+  - first:
+      213: 52169725072358825
+    second: 32x32_loading10_35
+  - first:
+      213: -5791784335374608634
+    second: 32x32_loading10_36
+  - first:
+      213: -9001869371804787905
+    second: 32x32_loading10_37
+  - first:
+      213: -18347989844348399
+    second: 32x32_loading10_38
+  - first:
+      213: 1959491738099382800
+    second: 32x32_loading10_39
+  - first:
+      213: -9188883887541795069
+    second: 32x32_loading10_40
+  - first:
+      213: 4211038548353538490
+    second: 32x32_loading10_41
+  - first:
+      213: 8852374409226248954
+    second: 32x32_loading10_42
+  - first:
+      213: 6794691729404664447
+    second: 32x32_loading10_43
+  - first:
+      213: 2797550723140039891
+    second: 32x32_loading10_44
+  - first:
+      213: -5923433109907028381
+    second: 32x32_loading10_45
+  - first:
+      213: -1701017149267818123
+    second: 32x32_loading10_46
+  - first:
+      213: 6939505262387231142
+    second: 32x32_loading10_47
+  - first:
+      213: -3833328074691041492
+    second: 32x32_loading10_48
+  - first:
+      213: 1246217597636530809
+    second: 32x32_loading10_49
+  - first:
+      213: 198262424916406028
+    second: 32x32_loading10_50
+  - first:
+      213: -8617565022914325869
+    second: 32x32_loading10_51
+  - first:
+      213: -122372874792279448
+    second: 32x32_loading10_52
+  - first:
+      213: 2381585801602151072
+    second: 32x32_loading10_53
+  - first:
+      213: -2732028798883643938
+    second: 32x32_loading10_54
+  - first:
+      213: 6736250629953637098
+    second: 32x32_loading10_55
+  - first:
+      213: -3790833783612310339
+    second: 32x32_loading10_56
+  - first:
+      213: 7720887885973061396
+    second: 32x32_loading10_57
+  - first:
+      213: 3915793785281917273
+    second: 32x32_loading10_58
+  - first:
+      213: 5391728059515729853
+    second: 32x32_loading10_59
+  - first:
+      213: -3481435999575438332
+    second: 32x32_loading10_60
+  - first:
+      213: -182027334791332899
+    second: 32x32_loading10_61
+  - first:
+      213: -2887498349369574503
+    second: 32x32_loading10_62
+  - first:
+      213: 8461373959619321772
+    second: 32x32_loading10_63
+  - first:
+      213: -208640858824063389
+    second: 32x32_loading10_64
+  - first:
+      213: 1130943389049745071
+    second: 32x32_loading10_65
+  - first:
+      213: -8286647617076978086
+    second: 32x32_loading10_66
+  - first:
+      213: 2637700295647389744
+    second: 32x32_loading10_67
+  - first:
+      213: -5646017487102477926
+    second: 32x32_loading10_68
+  - first:
+      213: -5936469511993762109
+    second: 32x32_loading10_69
+  - first:
+      213: 6808192891001729764
+    second: 32x32_loading10_70
+  - first:
+      213: -2027362981340261634
+    second: 32x32_loading10_71
+  - first:
+      213: 5777589426093734909
+    second: 32x32_loading10_72
+  - first:
+      213: -5611127617244790652
+    second: 32x32_loading10_73
+  - first:
+      213: -2487558777704946643
+    second: 32x32_loading10_74
+  - first:
+      213: -885409028504589338
+    second: 32x32_loading10_75
+  - first:
+      213: -8914047861089317508
+    second: 32x32_loading10_76
+  - first:
+      213: -6671009798957348128
+    second: 32x32_loading10_77
+  - first:
+      213: 6953662137419273768
+    second: 32x32_loading10_78
+  - first:
+      213: 7562227435954595051
+    second: 32x32_loading10_79
+  - first:
+      213: 3011847177903310552
+    second: 32x32_loading10_80
+  - first:
+      213: -8187548914528096893
+    second: 32x32_loading10_81
+  - first:
+      213: 7826382383084013125
+    second: 32x32_loading10_82
+  - first:
+      213: -1580163539869624788
+    second: 32x32_loading10_83
+  - first:
+      213: -1432349280941605134
+    second: 32x32_loading10_84
+  - first:
+      213: 2265746057057510383
+    second: 32x32_loading10_85
+  - first:
+      213: 3427245274950251738
+    second: 32x32_loading10_86
+  - first:
+      213: 1752375997959074576
+    second: 32x32_loading10_87
+  - first:
+      213: -6884275079706911691
+    second: 32x32_loading10_88
+  - first:
+      213: -3649117795440519980
+    second: 32x32_loading10_89
+  - first:
+      213: -8900582959385830155
+    second: 32x32_loading10_90
+  - first:
+      213: 1900615663054151022
+    second: 32x32_loading10_91
+  - first:
+      213: -6763911705901445280
+    second: 32x32_loading10_92
+  - first:
+      213: -4393027841732970184
+    second: 32x32_loading10_93
+  - first:
+      213: -3579678061116020597
+    second: 32x32_loading10_94
+  - first:
+      213: -194355759841076052
+    second: 32x32_loading10_95
+  - first:
+      213: -9126328985927890346
+    second: 32x32_loading10_96
+  - first:
+      213: 703974359261797127
+    second: 32x32_loading10_97
+  - first:
+      213: -291478841814852833
+    second: 32x32_loading10_98
+  - first:
+      213: 4467218864946737997
+    second: 32x32_loading10_99
+  - first:
+      213: -958246160799346085
+    second: 32x32_loading10_100
+  - first:
+      213: 2942025646487177991
+    second: 32x32_loading10_101
+  - first:
+      213: -6165841997880814438
+    second: 32x32_loading10_102
+  - first:
+      213: 1244264913926641938
+    second: 32x32_loading10_103
+  - first:
+      213: -2038375993091028439
+    second: 32x32_loading10_104
+  - first:
+      213: -4509929239062132890
+    second: 32x32_loading10_105
+  - first:
+      213: 6940540248811648598
+    second: 32x32_loading10_106
+  - first:
+      213: -2648545698805711028
+    second: 32x32_loading10_107
+  - first:
+      213: 2866833883023923703
+    second: 32x32_loading10_108
+  - first:
+      213: -8233448687130375169
+    second: 32x32_loading10_109
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 32x32_loading10_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3075e44194a6c480800000000000000
+      internalID: -8879228671481253827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32_loading10_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46bee613e91784b30800000000000000
+      internalID: 4271789170809039716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32_loading10_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e28a85a4e633b80800000000000000
+      internalID: -8416262013031272851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32_loading10_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a969f96495e0210800000000000000
+      internalID: 1301075502216682138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32_loading10_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f7628f2b13906020800000000000000
+      internalID: 2333026351948392439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32_loading10_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12de04fdac878f310800000000000000
+      internalID: 1439032893669174561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32_loading10_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0afabdbd8e8445cd0800000000000000
+      internalID: -2570349322363490400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32_loading10_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f97d84fa1733b3830800000000000000
+      internalID: 4051888853115000735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32_loading10_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d51b0d087b2489060800000000000000
+      internalID: 6960386580008710493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32_loading10_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04dfb62afafeae6a0800000000000000
+      internalID: -6419054781239919296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32_loading10_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b038e9f5dff02430800000000000000
+      internalID: 3756283383712854194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 32x32_loading10_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f289060f3622cfb0800000000000000
+      internalID: -4629095414857366797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c7a0f7ebb4cee49c4a05c91e97fe0c0a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      32x32_loading10_0: -8879228671481253827
+      32x32_loading10_1: 4271789170809039716
+      32x32_loading10_10: 3756283383712854194
+      32x32_loading10_11: -4629095414857366797
+      32x32_loading10_2: -8416262013031272851
+      32x32_loading10_3: 1301075502216682138
+      32x32_loading10_4: 2333026351948392439
+      32x32_loading10_5: 1439032893669174561
+      32x32_loading10_6: -2570349322363490400
+      32x32_loading10_7: 4051888853115000735
+      32x32_loading10_8: 6960386580008710493
+      32x32_loading10_9: -6419054781239919296
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
