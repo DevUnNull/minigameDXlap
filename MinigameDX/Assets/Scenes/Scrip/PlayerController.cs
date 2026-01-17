@@ -4,22 +4,30 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
     [Header("Settings")]
-    public float rotationSpeed = 100f;
-    public Transform rotationCenter; // Tâm xoay (nếu null sẽ dùng transform.position)
+    public float swapDuration = 0.3f; // Thời gian để swap (animation)
+
+    [Header("Children References")]
+    private Transform child1;
+    private Transform child2;
 
     [Header("State")]
-    private float currentSpeed;
-    private int direction = -1; // -1: Clockwise (Cùng chiều kim đồng hồ vì z-axis rotation), 1: Counter-Clockwise
+    private bool isSwapping = false;
+    private float swapProgress = 0f;
+    private Vector3 child1StartPos;
+    private Vector3 child2StartPos;
     private float lastScoreTime = -1f;
-
-    // Note: In Unity 2D, negative Z rotation is clockwise.
 
     private void Start()
     {
-        currentSpeed = rotationSpeed;
-        if (rotationCenter == null)
+        // Lấy 2 đối tượng con
+        if (transform.childCount >= 2)
         {
-            rotationCenter = transform;
+            child1 = transform.GetChild(0);
+            child2 = transform.GetChild(1);
+        }
+        else
+        {
+            Debug.LogError("PlayerController cần ít nhất 2 đối tượng con để swap!");
         }
     }
 
@@ -44,22 +52,57 @@ public class PlayerController : MonoBehaviour
             inputDetected = true;
         }
 
-        if (inputDetected)
+        if (inputDetected && !isSwapping)
         {
-            ChangeDirection();
+            StartSwap();
         }
 
-        // Apply Rotation
-        // Rotate around the center point.
-        // If this script is on the "Container" of the dots and the Container is at the center, we just rotate transform.
-        // User prompt: "Có một tâm điểm cố định, 2 điểm tròn (Player Dots) sẽ xoay quanh tâm này"
-        
-        transform.Rotate(0, 0, direction * currentSpeed * Time.deltaTime);
+        // Update swap animation
+        if (isSwapping)
+        {
+            UpdateSwap();
+        }
     }
 
-    private void ChangeDirection()
+    private void StartSwap()
     {
-        direction *= -1;
+        if (child1 == null || child2 == null) return;
+
+        isSwapping = true;
+        swapProgress = 0f;
+        
+        // Lưu vị trí ban đầu
+        child1StartPos = child1.localPosition;
+        child2StartPos = child2.localPosition;
+    }
+
+    private void UpdateSwap()
+    {
+        swapProgress += Time.deltaTime / swapDuration;
+
+        if (swapProgress >= 1f)
+        {
+            // Hoàn thành swap
+            swapProgress = 1f;
+            isSwapping = false;
+            
+            // Set vị trí cuối cùng chính xác
+            child1.localPosition = child2StartPos;
+            child2.localPosition = child1StartPos;
+        }
+        else
+        {
+            // Lerp giữa 2 vị trí với easing
+            float t = EaseInOutQuad(swapProgress);
+            child1.localPosition = Vector3.Lerp(child1StartPos, child2StartPos, t);
+            child2.localPosition = Vector3.Lerp(child2StartPos, child1StartPos, t);
+        }
+    }
+
+    // Hàm easing để animation mượt hơn
+    private float EaseInOutQuad(float t)
+    {
+        return t < 0.5f ? 2f * t * t : 1f - Mathf.Pow(-2f * t + 2f, 2f) / 2f;
     }
 
     // Logic va chạm đã được chuyển sang script PlayerCollision.cs gắn trên từng phần tử con

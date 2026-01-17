@@ -11,12 +11,14 @@ public class GameManager : MonoBehaviour
     [Header("UI References")]
     [Tooltip("Kéo Panel UI hiển thị khi thắng vào đây")]
     public GameObject winPanel;
-    
+
     [Header("Rotate Rush References")]
     public GameObject gameOverPanel;
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI yourScoreText;
     private int score = 0;
+    private int miss =0 ;
+    private int TotalScore = 160;
     public int Score => score; // Expose score for other systems (read-only)
     public bool IsGameOver { get; private set; }
 
@@ -85,6 +87,12 @@ public class GameManager : MonoBehaviour
         UpdateScoreUI();
     }
 
+    public void UnAddScore(int amount)
+    {
+        score = amount;
+        UpdateScoreUI();
+    }
+
     private void UpdateScoreUI()
     {
         if (scoreText != null)
@@ -98,7 +106,7 @@ public class GameManager : MonoBehaviour
 
         if (yourScoreText != null)
         {
-            yourScoreText.text = "Your Score: " + score;
+            yourScoreText.text = "Your Score: " + (TotalScore - miss)/TotalScore *100 ;
         }
         else
         {
@@ -107,32 +115,53 @@ public class GameManager : MonoBehaviour
     }
 
     public void GameOver()
-{
-    if (IsGameOver) return; // tránh gọi nhiều lần
-    IsGameOver = true;
-
-    Debug.Log("Game Over!");
-
-    // DỪNG NHẠC
-    if (musicSource != null)
     {
-        musicSource.Stop();
-    }
+        if (IsGameOver) return; // tránh gọi nhiều lần
+        IsGameOver = true;
 
-    if (gameOverPanel != null)
+        Debug.Log("Game Over!");
+
+        // DỪNG NHẠC
+        if (musicSource != null)
+        {
+            musicSource.Stop();
+        }
+
+        if (gameOverPanel != null)
+        {
+            gameOverPanel.SetActive(true);
+        }
+
+        // Nếu bạn muốn dừng toàn bộ game logic
+        Time.timeScale = 0f;
+    }
+    public void WinGame()
     {
-        gameOverPanel.SetActive(true);
-    }
+        if (IsGameOver) return; // tránh gọi nhiều lần
+        IsGameOver = true;
 
-    // Nếu bạn muốn dừng toàn bộ game logic
-     Time.timeScale = 0f;
-}
+        Debug.Log("You Win!");
+
+        // DỪNG NHẠC
+        if (musicSource != null)
+        {
+            musicSource.Stop();
+        }
+
+        if (winPanel != null)
+        {
+            winPanel.SetActive(true);
+        }
+
+        // Nếu bạn muốn dừng toàn bộ game logic
+        Time.timeScale = 0f;
+    }
 
 
     public void OnLevelComplete()
     {
         Debug.Log("GameManager nhận được thông báo: THẮNG!");
-        
+
         // Hiển thị UI chiến thắng
         if (winPanel != null)
         {
@@ -171,5 +200,11 @@ public class GameManager : MonoBehaviour
         if (yourScoreText != null)
             yourScoreText.text = "Your Score: " + newScore;
         Debug.Log($"NewHighScore set: {newScore}");
+    }
+
+    public int getMiss => miss;
+    public void AddMiss(int amount)
+    {
+        miss += amount;
     }
 }

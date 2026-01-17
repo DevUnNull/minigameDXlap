@@ -8,8 +8,10 @@ public class PlayerCollision : MonoBehaviour
     [Tooltip("Tham chiếu đến PlayerController cha để gọi hàm tính điểm")]
     public PlayerController playerController;
 
+
     private void Start()
     {
+        
         if (myAttributes == null)
         {
             myAttributes = GetComponent<ColorAttributes>();
@@ -41,17 +43,13 @@ public class PlayerCollision : MonoBehaviour
                 }
                 else
                 {
-                    // Khác màu -> Thua
-                    Debug.Log("Khác màu! Game Over.");
+                    // Khác màu -> hủy combo hit
+                    Debug.Log("Khác màu! Hit - UnAdd Score.");
                     if (GameManager.Instance != null)
                     {
-                        GameManager.Instance.GameOver();
-                        
-                        // Disable player control
-                        if (playerController != null)
-                        {
-                            playerController.enabled = false;
-                        }
+                        //GameManager.Instance.GameOver();
+                        GameManager.Instance.UnAddScore(0);
+                        GameManager.Instance.AddMiss(1);
                     }
                 }
             }

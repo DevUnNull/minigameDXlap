@@ -1,0 +1,364 @@
+fileFormatVersion: 2
+guid: e94cafb4b57ec476d909bbbcde53a594
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3922300125776163242
+    second: "Ba\u0309n sao Glitch 2_0"
+  - first:
+      213: 7477612441916061854
+    second: "Ba\u0309n sao Glitch 2_1"
+  - first:
+      213: 3680528016271763268
+    second: "Ba\u0309n sao Glitch 2_2"
+  - first:
+      213: -6807145944284998026
+    second: "Ba\u0309n sao Glitch 2_3"
+  - first:
+      213: -3240739837432730351
+    second: "Ba\u0309n sao Glitch 2_4"
+  - first:
+      213: -6790970960347149431
+    second: "Ba\u0309n sao Glitch 2_5"
+  - first:
+      213: -1936561200553815322
+    second: "Ba\u0309n sao Glitch 2_6"
+  - first:
+      213: 5235679951641196746
+    second: "Ba\u0309n sao Glitch 2_7"
+  - first:
+      213: -5511038427618707837
+    second: "Ba\u0309n sao Glitch 2_8"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Ba\u0309n sao Glitch 2_0"
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 81
+        width: 240
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65e44ac11d03199c0800000000000000
+      internalID: -3922300125776163242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ba\u0309n sao Glitch 2_1"
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 245
+        width: 30
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e98b278d5e0d5c760800000000000000
+      internalID: 7477612441916061854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ba\u0309n sao Glitch 2_2"
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 247
+        width: 50
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44760c30bbcd31330800000000000000
+      internalID: 3680528016271763268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ba\u0309n sao Glitch 2_3"
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 163
+        width: 108
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 676d6a854d82881a0800000000000000
+      internalID: -6807145944284998026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ba\u0309n sao Glitch 2_4"
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 162
+        width: 40
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d6d5cb9449603d0800000000000000
+      internalID: -3240739837432730351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ba\u0309n sao Glitch 2_5"
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 74
+        width: 50
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98bc38444ef91c1a0800000000000000
+      internalID: -6790970960347149431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ba\u0309n sao Glitch 2_6"
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 74
+        width: 45
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e29f2339d3ff15e0800000000000000
+      internalID: -1936561200553815322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ba\u0309n sao Glitch 2_7"
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 40
+        width: 119
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac8353b1d2fd8a840800000000000000
+      internalID: 5235679951641196746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ba\u0309n sao Glitch 2_8"
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 35
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3867242bfbbd483b0800000000000000
+      internalID: -5511038427618707837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Ba\u0309n sao Glitch 2_0": -3922300125776163242
+      "Ba\u0309n sao Glitch 2_1": 7477612441916061854
+      "Ba\u0309n sao Glitch 2_2": 3680528016271763268
+      "Ba\u0309n sao Glitch 2_3": -6807145944284998026
+      "Ba\u0309n sao Glitch 2_4": -3240739837432730351
+      "Ba\u0309n sao Glitch 2_5": -6790970960347149431
+      "Ba\u0309n sao Glitch 2_6": -1936561200553815322
+      "Ba\u0309n sao Glitch 2_7": 5235679951641196746
+      "Ba\u0309n sao Glitch 2_8": -5511038427618707837
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
