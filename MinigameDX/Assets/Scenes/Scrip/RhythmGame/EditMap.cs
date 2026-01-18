@@ -1,28 +1,37 @@
-using System.Diagnostics;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using System.Collections.Generic;
 
 public class EditMap : MonoBehaviour
 {
-    public GameObject notePrefab_1;
-    public GameObject notePrefab_2;
-    // khi bấn chuột sẽ spawn ngẫu nghiên tại 2 vị trí x 
-    public float leftX = -1.5f;
-    public float rightX = 1.5f;
+    [Header("Danh sách prefab note")]
+    public List<GameObject> notePrefabs = new List<GameObject>();
+
+    [Header("Danh sách node X")]
+    public List<float> spawnXList = new List<float>();
+
+    public float spawnY = 6f;
+
     void Update()
     {
         if (Mouse.current.leftButton.wasPressedThisFrame)
         {
-            SpawnNoteAtRandomPosition();
+            SpawnNoteRandom();
         }
     }
-    private void SpawnNoteAtRandomPosition()
+
+    private void SpawnNoteRandom()
     {
-        float spawnX = Random.value < 0.5f ? leftX : rightX;
-        Vector3 spawnPos = new Vector3(spawnX, 6f, 0);
-        GameObject note = Random.value <0.5f ? notePrefab_1 : notePrefab_2; 
+        if (notePrefabs.Count == 0 || spawnXList.Count == 0)
+        {
+            Debug.LogWarning("Danh sách prefab hoặc node đang rỗng!");
+            return;
+        }
+
+        float spawnX = spawnXList[Random.Range(0, spawnXList.Count)];
+        GameObject note = notePrefabs[Random.Range(0, notePrefabs.Count)];
+
+        Vector3 spawnPos = new Vector3(spawnX, spawnY, 0);
         Instantiate(note, spawnPos, Quaternion.identity);
     }
-    
 }
-

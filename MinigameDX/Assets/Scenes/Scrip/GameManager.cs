@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using TMPro;
 using System.ComponentModel;
+using DG.Tweening;
 
 public class GameManager : MonoBehaviour
 {

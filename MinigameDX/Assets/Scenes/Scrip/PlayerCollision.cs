@@ -2,21 +2,11 @@ using UnityEngine;
 
 public class PlayerCollision : MonoBehaviour
 {
-    [Tooltip("Tham chiếu đến script ColorAttributes của chính object này")]
-    public ColorAttributes myAttributes;
-
     [Tooltip("Tham chiếu đến PlayerController cha để gọi hàm tính điểm")]
     public PlayerController playerController;
 
-
     private void Start()
     {
-        
-        if (myAttributes == null)
-        {
-            myAttributes = GetComponent<ColorAttributes>();
-        }
-        
         // Tự động tìm PlayerController ở cha nếu chưa gán
         if (playerController == null)
         {
@@ -26,44 +16,26 @@ public class PlayerCollision : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        // Kiểm tra va chạm với Vật cản
-        if (other.CompareTag("Obstacle"))
+        // Chỉ xử lý khi va chạm với Obstacle
+        if (other.CompareTag("do") || other.CompareTag("xanh"))
         {
-            ColorAttributes otherAttributes = other.GetComponent<ColorAttributes>();
-            
-            if (otherAttributes != null)
+            // 🔹 So sánh tag của Player và Obstacle
+            if (other.tag == gameObject.tag)
             {
-                // Kiểm tra màu (dựa trên TypeA/TypeB)
-                if (myAttributes.colorType == otherAttributes.colorType)
-                {
-                    // Cùng màu -> Đi qua (Pass)
-                    Debug.Log("Cùng màu! Pass.");
-                    // xóa Obstacle đi 
-                    Destroy(other.gameObject);
-                }
-                else
-                {
-                    // Khác màu -> hủy combo hit
-                    Debug.Log("Khác màu! Hit - UnAdd Score.");
-                    if (GameManager.Instance != null)
-                    {
-                        //GameManager.Instance.GameOver();
-                        GameManager.Instance.UnAddScore(0);
-                        GameManager.Instance.AddMiss(1);
-                    }
-                }
+                // ✅ Cùng tag -> + điểm
+                Debug.Log("Cùng tag! + Score");
+                Destroy(other.gameObject);
+                GameManager.Instance.AddScore(1);
             }
             else
             {
-                // Nếu vật cản không có script màu => Xử lý như vật cản thường (Thua)
-                // Hoặc bỏ qua. Ở đây ta để mặc định là Thua cho an toàn.
-                 if (GameManager.Instance != null)
-                 {
-                     GameManager.Instance.GameOver();
-                 }
+                // ❌ Khác tag -> Miss / trừ điểm
+                Debug.Log("Khác tag! Miss");
+                GameManager.Instance.UnAddScore(0);
+                GameManager.Instance.AddMiss(1);
             }
         }
-        // Kiểm tra ScoreZone
+        // ScoreZone (giữ nguyên)
         else if (other.CompareTag("ScoreZone"))
         {
             if (playerController != null)
